@@ -1,0 +1,1 @@
+function Greeting({name}){return <h2>Hello, {name}!</h2>} export default function App(){return <main><h1>Props Demo</h1><Greeting name="Yashwanth"/><Greeting name="Student"/></main>}

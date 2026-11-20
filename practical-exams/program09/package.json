@@ -1,0 +1,12 @@
+{
+  "name": "program09-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/hello.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

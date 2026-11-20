@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Registration</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Student Registration</h1>
+    <form id="studentForm">
+      <label>Full name<input id="name" required minlength="2"></label>
+      <label>Email<input id="email" type="email" required></label>
+      <label>Register number<input id="regno" required></label>
+      <label>Branch<select id="branch" required><option value="">Choose branch</option><option>CSE</option><option>ECE</option><option>ME</option><option>CIVIL</option></select></label>
+      <button>Register</button>
+    </form>
+    <p id="message" role="status"></p><h2>Registered students</h2><ul id="students"></ul>
+  </main><script src="script.js"></script>
+</body></html>
